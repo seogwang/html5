@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼 요소2</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>폼 요소2</h1>
+    <form action="join.jsp" method="post">
+        <h2>회원가입</h2>
+        <fieldset>
+            <legend>기본 정보</legend>
+            <table class="tb1">
+                <tbody>
+                    <tr>
+                        <th></th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>추가 정보</legend>
+            <table class="tb1">
+                <tbody>
+                    <tr>
+                        <th><label for="area">해당 지역</label></th>
+                        <td>
+                            <select name="area" id="area">
+                                <option value="">선택 안함</option>
+                                <option value="1" selected>서울</option>
+                                <option value="2">경기</option>
+                                <option value="3">강원</option>
+                                <option value="4">충청</option>
+                                <option value="5">전라</option>
+                                <option value="6">경상</option>
+                                <option value="7">제주</option>
+                                <option value="8">해외</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <th><label for="hobby">취미</label></th>
+                        <td>
+                            <input type="checkbox" id="hobby1" name="hobby1" value="낚시">
+                            <label for="hobby1">낚시</label>
+                            <input type="checkbox" id="hobby2" name="hobby2" value="독서" checked>
+                            <label for="hobby2">독서</label>
+                            <input type="checkbox" id="hobby3" name="hobby3" value="스킨스쿠버">
+                            <label for="hobby3">스킨스쿠버</label>
+                            <input type="checkbox" id="hobby4" name="hobby4" value="등산">
+                            <label for="hobby4">등산</label>
+                            <input type="checkbox" id="hobby5" name="hobby5" value="게임" checked>
+                            <label for="hobby5">게임</label>
+                            <input type="checkbox" id="hobby6" name="hobby6" value="코딩">
+                            <label for="hobby6">코딩</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="male">성별</label></th>
+                        <td>
+                            <input type="radio" id="male1" name="male" checked>
+                            <label for="male1">여성</label>
+                            <input type="radio" id="male2" name="male">
+                            <label for="male2">남성</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="pic">사진</label></th>
+                        <td><input type="file" name="pic" id="pic" accept=""></td>
+                        <td><input type="file" name="pic" id="pic" accept=""></td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="memo">하고 싶은 말</label>
+                        </th>
+                        <td>
+                            <textarea name="memo" id="memo" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="color">좋아하는 색상</label></th>
+                        <td>
+                            <input type="color" name="clor" id="color">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <table class="tb1">
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <button type="submit">회원 가입</button>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <button type="reset">취소</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
